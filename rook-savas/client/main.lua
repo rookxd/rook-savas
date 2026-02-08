@@ -322,7 +322,7 @@ Citizen.CreateThread(function()
                 wait = 7000
 
                 SetEntityCoords(player, Config.arenakordinat.x, Config.arenakordinat.y, Config.arenakordinat.z)
-                TriggerEvent('hospital:client:Revive', exports["rook-getkey"]:GetKey(), false)
+                TriggerEvent('hospital:client:Revive', false)
                 
                 if silah == nil then
                 SetCurrentPedWeapon(player, GetHashKey("WEAPON_MACHINEPISTOL"), true)
